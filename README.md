@@ -732,7 +732,11 @@
 <details>
   <summary>Spring DI/IoC는 어떻게 동작하나요?</summary>
   </br>
-  <p></p>
+  <p>
+Spring에서 DI/IoC 객체는 개발자가 직접 객체 주입에 관여하지 않고, 외부인 Spring IoC 컨테이너에서 객체를 생성한 뒤  필요한 곳에 주입합니다. 이러한 객체를 Spring에서는 `Bean`이라 하고, 이를 통해 결합도를 낮추고 유연성이 높은 코드를 작성할 수 있습니다. 
+  <br></br>
+IoC 컨테이너에 의해 객체들이 제어되고 의존성을 이어주는 역할을 합니다.
+  </p>
 </details>
 
 <details>
@@ -744,7 +748,9 @@
 <details>
   <summary>스프링 Bean의 생성 과정을 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+객체 생성 -> **의존성 객체 주입** -> 의존성 객체 메소드 호출
+  </p>
 </details>
 
 <details>
@@ -756,13 +762,17 @@
 <details>
   <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
   </br>
-  <p></p>
+  <p>
+기본적으로 객체를 생성하고 객체간의 의존성을 이어주는 역할
+  </p>
 </details>
 
 <details>
   <summary>DI 종류는 어떤것이 있고, 이들의 차이는 무엇인가요?</summary>
   </br>
-  <p></p>
+  <p>
+Setter Injection, Constructor Injection 두 가지 방식이 있습니다.
+  </p>
 </details>
 
 <details>
@@ -774,7 +784,9 @@
 <details>
   <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+Dispatcher Servlet이 MVC에서 프론트 컨트롤러 역할을 수행합니다. 클라이언트 요청이 들어오면, Dispatcher Servlet이 이를 받아들입니다. 컨트롤러에서 Dispatcher Servlet은 해당 요청을 처리하기 위해 HandlerMapping 객체를 이용해 요청과 매핑되는 controller을 검색하고, Handler Adapter가 요청에 맞는 `ModleAndView` 를 반환합니다. 이 `ModelAndView` 객체에서 View name에 맞는 이름을 검색하여 view를 만들어 Dispatcher Servlet에게 결과를 반환하고, 해당 결과를 적절한 뷰에게 전달합니다. 이후 뷰가 최종적으로 클라이언트에게 응답을 보내게 됩니다.
+  </p>
 </details>
 
 <details>
@@ -816,7 +828,9 @@
 <details>
   <summary>Spring Web MVC에서 요청 마다 Thread가 생성되어 Controller를 통해 요청을 수행할텐데, 어떻게 1개의 Controller만 생성될 수 있을까요?</summary>
   </br>
-  <p></p>
+  <p>
+서블릿 컨테이너의 DispatcherServlet에서 HandlerMapping을 통해 요청에 맞는 컨트롤러를 찾아 사용하기 때문입니다. 
+  </p>
 </details>
 
 <details>
