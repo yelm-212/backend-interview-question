@@ -177,7 +177,7 @@
   <summary>동기와 비동기의 차이(블로킹, 넌블로킹) / 장단점에 대해 설명해보세요.</summary>
   </br>
   <p>동기/비동기는 두 개 이상의 무엇인가가 시간을 맞춘다/안맞춘다로 구분할 수 있습니다. 메서드 리턴과 결과를 전달받는 시간이 일치하면 동기입니다. 또, A가 끝나는 시간과 B가 시작하는 시간이 같으면 동기입니다.</p>
-  <p>블로킹/논블로킹은 동기,비동기와는 관점입니다. 내가 직접 제어할 수 없는 대상(IO/멀티스레드)을 상대하는 방법입니다.</p>
+  <p>블로킹/논블로킹은 동기,비동기와는 다른 관점입니다. 내가 직접 제어할 수 없는 대상(IO/멀티스레드)을 상대하는 방법입니다.</p>
   <p>보통 비동기 방식은 여러 개의 처리가 함께 일어나기 때문에, CPU 리소스를 많이 사용하는 작업을 비동기로 처리하게 되면 과부하가 걸릴 수 있습니다.</p>
   <p>블로킹 방식은 대상의 작업이 끝날 때 까지 제어권을 대상이 가지고 있는 것을 의미합니다. 그리고 논블로킹은 해당 작업 완료여부와 상관없이 자신의 작업을 그대로 수행합니다.</p>
   <p>동기 논블로킹은 계속해서 polling을 수행하기 때문에 컨텍스트 스위칭이 지속적으로 발생해 지연이 발생합니다.</p>
@@ -526,6 +526,9 @@
 <details>
   <summary>JWT와 OAuth의 차이는 무엇이 있을까요?</summary>
   </br>
+  <p>
+  JWT는 클라이언트와 서버 간의 인증을 처리하기 위한 토큰이고, 토큰 자체에 정보를 포함하고 있습니다. 반면, OAuth는 사용자의 인증과 권한 부여를 위한 프로토콜로, 클라이언트가 사용자의 동의를 얻어 제한된 액세스 토큰을 발급받아 자원에 접근하게 됩니다.
+  </p>
 </details>
 
 <details>
@@ -793,7 +796,7 @@ Setter Injection, Constructor Injection, 필드 주입 세 가지 방식이 있�
   <summary>Spring Web MVC의 Dispatcher Servlet의 동작 원리에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p>
-Dispatcher Servlet이 MVC에서 프론트 컨트롤러 역할을 수행합니다. 클라이언트 요청이 들어오면, Dispatcher Servlet이 이를 받아들입니다. 컨트롤러에서 Dispatcher Servlet은 해당 요청을 처리하기 위해 HandlerMapping 객체를 이용해 요청과 매핑되는 controller을 검색하고, Handler Adapter가 요청에 맞는 `ModleAndView` 를 반환합니다. 이 `ModelAndView` 객체에서 View name에 맞는 이름을 검색하여 view를 만들어 Dispatcher Servlet에게 결과를 반환하고, 해당 결과를 적절한 뷰에게 전달합니다. 이후 뷰가 최종적으로 클라이언트에게 응답을 보내게 됩니다.
+Dispatcher Servlet이 MVC에서 프론트 컨트롤러 역할을 수행합니다. 클라이언트 요청이 들어오면, Dispatcher Servlet이 이를 받아들입니다. 컨트롤러에서 Dispatcher Servlet은 해당 요청을 처리하기 위해 HandlerMapping 객체를 이용해 요청과 매핑되는 controller을 검색하고, Handler Adapter가 요청에 맞는 `ModelAndView` 를 반환합니다. 이 `ModelAndView` 객체에서 View name에 맞는 이름을 검색하여 view를 만들어 Dispatcher Servlet에게 결과를 반환하고, 해당 결과를 적절한 뷰에게 전달합니다. 이후 뷰가 최종적으로 클라이언트에게 응답을 보내게 됩니다.
   </p>
 </details>
 
