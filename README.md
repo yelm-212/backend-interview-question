@@ -535,7 +535,7 @@
   <summary>SQL Injection에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p> 
-  <!-- TODO:  -->
+  <!-- TODO: SQL 인젝션 -->
   </p>
 </details>
 
@@ -543,7 +543,7 @@
   <summary>XSS에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: XSS -->
   </p>
 </details>
 
@@ -551,7 +551,7 @@
   <summary>CSRF에 대해서 간단히 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: CSRF -->
   </p>
 </details>
 
@@ -573,7 +573,7 @@
   <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: JVM과 자바의 실행 방식 -->
   </p>
 </details>
 
@@ -592,7 +592,7 @@
   <summary>컬렉션 프레임워크에 대해서 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 컬렉션이란 -->
   </p>
 </details>
 
@@ -600,7 +600,7 @@
   <summary>제네릭에 대해서 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 제네릭이란? -->
   </p>
 </details>
 
@@ -608,7 +608,7 @@
   <summary>애노테이션에 대해서 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 어노테이션에 대한 설명 -->
   </p>
 </details>
 
@@ -625,7 +625,7 @@
   <summary>인터페이스와 추상클래스의 차이점에 대해 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 인터페이스와 추상 클래스 -->
   </p>
 </details>
 
@@ -633,7 +633,7 @@
   <summary>클래스는 무엇이고 객체는 무엇인가요?</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 클래스와 객체 -->
   </p>
 </details>
 
@@ -663,7 +663,7 @@
   <summary>SOLID(객체지향 5대원칙)에 대해서 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: SOLID -->
   </p>
 </details>
 
@@ -729,14 +729,16 @@
 <details>
   <summary>직렬화와 역직렬화에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+    <!-- TODO: 직렬화와 역직렬화 -->
+  </p>
 </details>
 
 <details>
   <summary>자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 자바 동시성 처리 -->
   </p>
 </details>
 
@@ -772,7 +774,7 @@ IoC 컨테이너에 의해 객체들이 제어되고 의존성을 이어주는 �
   <summary>Spring Bean이란 무엇인가요?</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: Bean 정의 -->
   </p>
 </details>
 
@@ -787,14 +789,16 @@ IoC 컨테이너에 의해 객체들이 제어되고 의존성을 이어주는 �
 <details>
   <summary>스프링 Bean의 Scope에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+    <!-- TODO: Spring Bean 역할 보충 필요 -->
+  </p>
 </details>
 
 <details>
   <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
   </br>
   <p>
-  <!-- TODO: 보충 필요 -->
+  <!-- TODO: IoC 컨테이너 역할 보충 필요 -->
 기본적으로 객체를 생성하고 객체간의 의존성을 이어주는 역할
   </p>
 </details>
@@ -974,7 +978,7 @@ SQL 쿼리를 직접 생성하지 않고, JPA에 저장할 객체를 전달하�
   <summary>테스트 코드에 대해서 어떻게 생각하고, 작성하나요?</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 테스트 코드에 대한 관점 -->
   </p>
 </details>
 
@@ -982,7 +986,7 @@ SQL 쿼리를 직접 생성하지 않고, JPA에 저장할 객체를 전달하�
   <summary>TDD를 알고 있나요? TDD에 대해서 어떻게 생각하나요?</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: TDD에 대한 관점 -->
   </p>
 </details>
 
@@ -998,7 +1002,7 @@ SQL 쿼리를 직접 생성하지 않고, JPA에 저장할 객체를 전달하�
   <summary>AWS 인프라를 구축해보았다면 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: AWS 인프라 구축 -->
   </p>
 </details>
 
@@ -1061,7 +1065,7 @@ VM은 원래 단일 물리적 시스템에서 여러 운영 체제를 실행할 
   <summary>컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: 컨테이너 디버깅  -->
   </p>
 </details>
 
@@ -1081,7 +1085,7 @@ CI(Continuous Integration), (Continuous Delivery/Deployment)는 코드 변경 �
   <summary>DevOps가 무엇인지 설명해주세요.</summary>
   </br>
   <p>
-  <!-- TODO:  -->
+  <!-- TODO: devops -->
   </p>
 </details>
 
@@ -1154,7 +1158,7 @@ CI(Continuous Integration), (Continuous Delivery/Deployment)는 코드 변경 �
 
 ### 웹서버의 동작과정
 
-<!-- TODO: -->
+<!-- TODO: 웹 서버 동작 과정 -->
 
 ## 면접 꿀팁
 
