@@ -534,19 +534,25 @@
 <details>
   <summary>SQL Injection에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p> 
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>XSS에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>CSRF에 대해서 간단히 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 ### 컴파일러
@@ -566,7 +572,9 @@
 <details>
   <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -583,19 +591,25 @@
 <details>
   <summary>컬렉션 프레임워크에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>제네릭에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>애노테이션에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -610,13 +624,17 @@
 <details>
   <summary>인터페이스와 추상클래스의 차이점에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>클래스는 무엇이고 객체는 무엇인가요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -644,7 +662,9 @@
 <details>
   <summary>SOLID(객체지향 5대원칙)에 대해서 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -715,7 +735,9 @@
 <details>
   <summary>자바의 동시성 이슈(공유자원 접근)에 대해 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -749,7 +771,9 @@ IoC 컨테이너에 의해 객체들이 제어되고 의존성을 이어주는 �
 <details>
   <summary>Spring Bean이란 무엇인가요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -770,6 +794,7 @@ IoC 컨테이너에 의해 객체들이 제어되고 의존성을 이어주는 �
   <summary>IoC 컨테이너의 역할은 무엇이 있을까요?</summary>
   </br>
   <p>
+  <!-- TODO: 보충 필요 -->
 기본적으로 객체를 생성하고 객체간의 의존성을 이어주는 역할
   </p>
 </details>
