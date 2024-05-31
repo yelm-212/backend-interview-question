@@ -973,13 +973,17 @@ SQL 쿼리를 직접 생성하지 않고, JPA에 저장할 객체를 전달하�
 <details>
   <summary>테스트 코드에 대해서 어떻게 생각하고, 작성하나요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
   <summary>TDD를 알고 있나요? TDD에 대해서 어떻게 생각하나요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -993,7 +997,9 @@ SQL 쿼리를 직접 생성하지 않고, JPA에 저장할 객체를 전달하�
 <details>
   <summary>AWS 인프라를 구축해보았다면 설명해주세요.</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 <details>
@@ -1054,7 +1060,9 @@ VM은 원래 단일 물리적 시스템에서 여러 운영 체제를 실행할 
 <details>
   <summary>컨테이너 환경에서의 디버깅은 어떤식으로 하며 상대적으로 어려운 점은 무엇인가요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO:  -->
+  </p>
 </details>
 
 ### DevOps
@@ -1073,7 +1081,7 @@ CI(Continuous Integration), (Continuous Delivery/Deployment)는 코드 변경 �
   <summary>DevOps가 무엇인지 설명해주세요.</summary>
   </br>
   <p>
-
+  <!-- TODO:  -->
   </p>
 </details>
 
@@ -1139,10 +1147,14 @@ CI(Continuous Integration), (Continuous Delivery/Deployment)는 코드 변경 �
 <details>
   <summary>쿠버네티스가 무엇인가요? 왜 쿠버네티스를 쓸까요?</summary>
   </br>
-  <p></p>
+  <p>
+  <!-- TODO: 쿠버네티스 -->
+  </p>
 </details>
 
 ### 웹서버의 동작과정
+
+<!-- TODO: -->
 
 ## 면접 꿀팁
 
