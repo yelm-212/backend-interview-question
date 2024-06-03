@@ -572,8 +572,22 @@
 <details>
   <summary>JVM의 구조와 Java의 실행방식을 설명해주세요.</summary>
   </br>
+  <p> 
+  Java는 컴파일러(javac)에 의해 Java Byte Code(.class)로 컴파일 되어, 이 컴파일된 바이트 코드가 JVM에서 인터프리터 방식으로 동작합니다. 이 JVM에 의해 자바는 OS에 독립적인 특징을 가지고, 컴파일 방식과 인터프리터 방식을 함께 사용합니다.
+  </p>
   <p>
-  <!-- TODO: JVM과 자바의 실행 방식 -->
+  JIT 컴파일러를 사용하면, 매번 기계어로 번역하지 않고 이전에 실행한 코드를 캐싱하여 재사용하기 때문에 좀 더 빠른 실행이 가능해집니다.
+  </p>
+  <p>
+  JVM은 클래스 파일을 로드하고 링크로 배치하는 클래스 로더, 메모리 영역인 Runtime Data Area, Execution Engine, Garbage Collector로 구분됩니다.
+  </p>
+</details>
+
+<details>
+  <summary>JVM의 메모리 구조에 대해 설명해 주세요.</summary>
+  </br>
+  <!-- TODO: JVM의 메모리 영역 구조에 대한 설명 -->
+  <p> 
   </p>
 </details>
 
